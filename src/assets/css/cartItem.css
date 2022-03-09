@@ -1,0 +1,46 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+
+.box{ width: 10px; }
+
+.btn {
+  line-height: 20px;
+  height: 50px;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:before {
+  border-color: white;
+} 
+.btn:hover:before {
+  border-color: white;
+}
+  
+  .center-img{
+    margin-left: 0;
+    object-fit: contain;
+    justify-content: center;
+    max-width: 50vh;
+    max-height: 50vh;
+    align-content: center;
+    margin: auto;
+  }
+.line{
+  column-fill: balance;
+  display: flex;
+  font-size: smaller;
+  text-align: center;
+  margin: auto;
+  
+  justify-content: space-between;
+}
+
+h2:before{color: white;}
+h2:hover:before{color: white;}
+
+.center{
+  text-align: center;
+}

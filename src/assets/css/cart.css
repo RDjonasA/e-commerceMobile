@@ -1,0 +1,14 @@
+.scrollCart{
+    padding-top: 10vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    color:#6497b1;
+}
+.buy{
+    margin-left: 1rem;
+}
+
+.center-prod{
+    text-align: center;
+}

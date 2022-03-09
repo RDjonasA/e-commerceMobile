@@ -1,0 +1,58 @@
+
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #011f4b;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #b3cde0;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(71, 48, 4);  /* creates padding around scroll thumb */
+  }
+  body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #b3cde0 #011f4b;   /* scroll thumb and track */
+  }
+  
+  *{
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #b3cde0 #011f4b;   /* scroll thumb and track */
+  }
+  
+  *::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #011f4b;        /* color of the tracking area */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #b3cde0;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(71, 48, 4);  /* creates padding around scroll thumb */
+  }
+  .scroll{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 80vh;
+}
+a{
+    color:#6497b1;
+    cursor: pointer;
+  }
+
+.aa{
+    color:#6497b1;
+    cursor: pointer;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 8vh;
+  }
+.prom{
+  padding-top: 8vh;
+  padding-bottom: 0;
+}

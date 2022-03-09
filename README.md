@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Author
 
-In the project directory, you can run:
+Ruiz Diaz Jonatan 03/2022
+
+#### DB example --> escueladevrock.com
 
 ### `npm start`
 
